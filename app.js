@@ -1,6 +1,9 @@
-function sayHello(name)  {
-    console.log("hello " + name + " 111");
+
+const loginInput = document.querySelector("#login-form input");
+const loginButton = document.querySelector("#login-form button");
+
+function loginBtnClick () {
+    console.log("click");
 }
 
-sayHello("jang");
-sayHello("Su hyun");
+loginButton.addEventListener("click", loginBtnClick);
