@@ -12,9 +12,16 @@ h1 {
   font-size: 20px;
 }
 
-h2 {
+#clock {
   padding-left: 30px;
   opacity: 0.8;
   font-size: 20px;
-  color: darkgreen;
+  color: black;
+}
+
+#tip span {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 30px;
 }
